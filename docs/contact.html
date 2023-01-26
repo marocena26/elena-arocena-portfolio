@@ -4,16 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="shortcut icon" href="./assets/images/favicon.ico" />
     <title>Elena Arocena Portfolio</title>
   </head>
 
-  <body>
-    
-    
+  <body class="body">
+    <header class="header">
+      <a href="./index.html" class="header__name">
+        <h1 class="header__name--title">Home</h1>
+      </a>
+      <nav>
+        <ul class="header__nav">
+          <li class="header__nav--item">
+            <a href="./about-me.html" class="header__nav--item-link">Sobre mí</a>
+          </li>
+          <li class="header__nav--item">
+            <a href="./projects.html" class="header__nav--item-link">Proyectos</a>
+          </li>
+          <li class="header__nav--item">
+            <a href="./contact.html" class="header__nav--item-link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact">
+        <h2 class="contact__title">¿Hablamos?</h2>
+        <img src="" alt="" />
+        <div class="contact__icons">
+          <a
+            target="_blank"
+            href="https://twitter.com/marocena26"
+            class="contact__icons--link"
+            ><i class="fa-brands fa-twitter icons"></i>Twitter</a
+          >
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/maria-elena-arocena-lopez-/"
+            class="contact__icons--link"
+            ><i class="fa-brands fa-linkedin icons"></i>Linkedin</a
+          >
+          <a
+            target="_blank"
+            href="https://github.com/marocena26"
+            class="contact__icons--link"
+            ><i class="fa-brands fa-github icons"></i>Github</a
+          >
+          <a
+            target="_blank"
+            href="mailto:mariaelena.arocena@gmail.com"
+            class="contact__icons--link"
+            ><i class="fa-sharp fa-solid fa-envelope icons"></i>Email</a
+          >
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Elena Arocena López ©2023</p>
+    </footer>
+
   </body>
 </html>
