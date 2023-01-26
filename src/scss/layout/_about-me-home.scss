@@ -7,6 +7,13 @@
   height: 70vh;
   gap: 10px;
   margin: 0 20px;
+  @include tablet {
+    margin: 0 100px;
+  }
+  @include desktop {
+    margin: 0 300px;
+  }
+
   &__title {
     font-size: rem(24);
     font-weight: 700;
