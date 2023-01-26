@@ -35,6 +35,7 @@
     }
 
     &--item {
+      font-size: rem(18);
       @include tablet {
         font-size: rem(20);
       }
