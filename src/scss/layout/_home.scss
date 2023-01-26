@@ -1,0 +1,27 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  &__img {
+    margin: 50px 0 10px 0;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+  }
+  &__name {
+    font-size: rem(24);
+  }
+  &__job {
+    font-size: rem(20);
+  }
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    &--link {
+      color: black;
+    }
+  }
+}
