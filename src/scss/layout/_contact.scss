@@ -22,15 +22,6 @@
       flex-direction: row;
     }
   }
-  &__text {
-    font-size: rem(20);
-    @include tablet {
-      font-size: rem(30);
-    }
-    @include desktop {
-      font-size: rem(36);
-    }
-  }
   &__icons {
     display: flex;
     flex-direction: column;
@@ -38,9 +29,14 @@
     align-items: flex-start;
     gap: 40px;
     text-transform: uppercase;
+    font-size: rem(20);
+    @include tablet {
+      font-size: rem(22);
+    }
 
     &--link {
       text-decoration: none;
+      color: black;
     }
   }
 }
