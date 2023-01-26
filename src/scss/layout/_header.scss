@@ -1,1 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__name {
+    text-decoration: none;
+    padding: 20px 0 10px 0;
+    &--title {
+      font-size: rem(18);
+    }
+  }
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    gap: 15px;
 
+    &--item {
+      &-link {
+        text-decoration: none;
+      }
+    }
+  }
+}

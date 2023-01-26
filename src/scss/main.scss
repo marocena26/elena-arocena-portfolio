@@ -1,12 +1,12 @@
 @import "core/reset";
 @import "core/variables";
+@import "core/functions";
+@import "core/mixins";
 
 @import "layout/layout";
 @import "layout/header";
+@import "layout/home";
+@import "layout/about-me";
+@import "layout/contact";
+@import "layout/projects";
 @import "layout/footer";
-/*
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'pages/index';
-*/
