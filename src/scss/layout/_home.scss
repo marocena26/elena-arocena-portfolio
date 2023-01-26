@@ -3,23 +3,79 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  height: 80vh;
+  @include tablet {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
   &__img {
-    margin: 50px 0 10px 0;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    &--photo {
+      //   margin: 200px 0 10px 0;
+      border-radius: 50%;
+      border: 2px solid black;
+      width: 180px;
+      height: 180px;
+      @include tablet {
+        width: 250px;
+        height: 250px;
+      }
+    }
   }
-  &__name {
-    font-size: rem(24);
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    &--name {
+      font-size: rem(24);
+      @include tablet {
+        font-size: rem(30);
+      }
+      @include desktop {
+        font-size: rem(36);
+      }
+    }
+    &--job {
+      font-size: rem(20);
+      @include tablet {
+        font-size: rem(26);
+      }
+      @include desktop {
+        font-size: rem(30);
+      }
+    }
   }
-  &__job {
-    font-size: rem(20);
-  }
+
   &__icons {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+    margin-top: 20px;
+    @include tablet {
+      flex-direction: column;
+      gap: 30px;
+    }
+    @include desktop {
+      gap: 35px;
+    }
     &--link {
       color: black;
     }
