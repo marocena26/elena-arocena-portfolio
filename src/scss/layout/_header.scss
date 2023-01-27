@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 15vh;
   @include tablet {
     flex-direction: row;
     justify-content: space-between;
@@ -20,6 +21,7 @@
     }
     &--title {
       font-size: rem(18);
+      color: $color-secondary;
       @include tablet {
         font-size: rem(20);
       }
@@ -32,15 +34,20 @@
     gap: 15px;
     @include tablet {
       padding: 40px;
+      gap: 20px;
+    }
+    @include desktop {
+      gap: 40px;
     }
 
     &--item {
-      font-size: rem(18);
-      @include tablet {
-        font-size: rem(20);
-      }
       &-link {
+        color: $color-secondary;
         text-decoration: none;
+        font-size: rem(18);
+        @include tablet {
+          font-size: rem(20);
+        }
       }
     }
   }

@@ -9,7 +9,6 @@
   border: 1px solid $color-primary;
   box-shadow: 12px 17px 51px $color-shadow;
   border-radius: 8%;
-  cursor: pointer;
   transition: all 0.5s;
   &:hover {
     border: 1px solid $color-secondary;
@@ -25,6 +24,10 @@
     width: 230px;
     height: 200px;
     object-fit: cover;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.4;
+    }
   }
   &--links {
     display: flex;
@@ -44,6 +47,7 @@
   border-radius: 50%;
   font-size: rem(18);
   text-decoration: none;
+  cursor: pointer;
   &:hover {
     background-color: #723873;
   }

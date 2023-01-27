@@ -1,10 +1,19 @@
-.section {
+.main {
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
   gap: 20px;
+  @include tablet {
+    gap: 60px;
+  }
+}
+.section {
+  gap: 20px;
+  @include tablet {
+    gap: 60px;
+  }
   @include tablet {
     display: flex;
     flex-direction: row-reverse;
@@ -17,13 +26,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 
     &--photo {
-      //   margin: 200px 0 10px 0;
       border-radius: 50%;
       border: 2px solid black;
-      width: 180px;
-      height: 180px;
+      width: 200px;
+      height: 200px;
       @include tablet {
         width: 250px;
         height: 250px;
@@ -43,7 +52,7 @@
       align-items: flex-start;
     }
     &--name {
-      font-size: rem(24);
+      font-size: rem(26);
       font-weight: 700;
       @include tablet {
         font-size: rem(30);
@@ -53,7 +62,7 @@
       }
     }
     &--job {
-      font-size: rem(20);
+      font-size: rem(22);
       @include tablet {
         font-size: rem(26);
       }
@@ -68,16 +77,22 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
     @include tablet {
-      flex-direction: column;
-      gap: 30px;
+      gap: 60px;
     }
     @include desktop {
-      gap: 35px;
+      gap: 75px;
     }
     &--link {
       color: black;
+      font-size: rem(32);
+      @include tablet {
+        font-size: rem(42);
+      }
+      @include desktop {
+        font-size: rem(52);
+      }
     }
   }
 }
