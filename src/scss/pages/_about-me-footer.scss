@@ -1,4 +1,4 @@
-.footer {
+.footer__about {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -8,7 +8,7 @@
   @include tablet {
     flex-direction: column;
   }
-  &__title {
+  &--title {
     font-size: rem(24);
     font-weight: 700;
     @include tablet {
@@ -18,7 +18,7 @@
       font-size: rem(36);
     }
   }
-  &__tech {
+  &--tech {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
