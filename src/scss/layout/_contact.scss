@@ -3,9 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 75vh;
   gap: 20px;
-  margin: 0 20px;
 
   &__title {
     font-size: rem(24);
@@ -25,22 +24,31 @@
   &__icons {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     gap: 40px;
-    text-transform: uppercase;
-    font-size: rem(20);
-    @include tablet {
-      font-size: rem(22);
-    }
-
     &--link {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
       text-decoration: none;
-      color: black;
+      color: $color-secondary;
+      &:hover {
+        color: $color-hover;
+      }
     }
   }
 }
 
 .icons {
-  margin: 15px;
+  font-size: rem(28);
+  @include tablet {
+    font-size: rem(32);
+  }
+}
+
+.icons__text {
+  font-size: rem(20);
+  @include tablet {
+    font-size: rem(22);
+  }
 }

@@ -3,22 +3,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 15px;
   height: 15vh;
   @include tablet {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 25px;
+    margin: 0 10%;
   }
   @include desktop {
-    margin: 0 200px;
+    margin: 0 20%;
   }
   &__name {
     text-decoration: none;
-    padding: 20px 0 10px 0;
-    @include tablet {
-      padding: 40px;
-    }
     &--title {
       font-size: rem(18);
       color: $color-secondary;
@@ -33,10 +30,8 @@
   &__nav {
     display: flex;
     flex-direction: row;
-    padding: 10px 0;
     gap: 15px;
     @include tablet {
-      padding: 40px;
       gap: 20px;
     }
     @include desktop {

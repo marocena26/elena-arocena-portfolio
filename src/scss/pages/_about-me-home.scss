@@ -56,4 +56,18 @@
       font-size: rem(20);
     }
   }
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+
+.icons__about {
+  margin-top: 10px;
+  font-size: rem(30);
+  @include tablet {
+    margin-top: 20px;
+    font-size: rem(45);
+  }
 }
