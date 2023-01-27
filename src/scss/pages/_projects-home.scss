@@ -11,17 +11,25 @@
 
     @include tablet {
       font-size: rem(30);
+      margin: 10px 0 50px 0;
     }
     @include desktop {
       font-size: rem(36);
     }
   }
   &__list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto;
     justify-content: center;
     align-content: space-around;
     gap: 30px;
+    @include tablet {
+      grid-template-columns: auto auto;
+      gap: 30px;
+    }
+    @include desktop {
+      grid-template-columns: auto auto auto;
+      gap: 60px;
+    }
   }
 }
