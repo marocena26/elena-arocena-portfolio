@@ -87,6 +87,9 @@
     &--link {
       color: black;
       font-size: rem(32);
+      &:hover {
+        color: $color-hover;
+      }
       @include tablet {
         font-size: rem(42);
       }
