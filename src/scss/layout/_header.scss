@@ -11,10 +11,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10%;
+    padding: 0 10%;
   }
   @include desktop {
-    margin: 0 20%;
+    background-color: inherit;
   }
   &__name {
     text-decoration: none;
@@ -26,6 +26,9 @@
       }
       @include tablet {
         font-size: rem(20);
+      }
+      @include desktop {
+        color: $color-primary;
       }
     }
   }
