@@ -1,5 +1,10 @@
 .footer {
   height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   &__text {
     text-align: center;
   }
