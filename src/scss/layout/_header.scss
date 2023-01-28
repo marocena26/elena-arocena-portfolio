@@ -3,8 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: $color-background;
+  opacity: 85%;
   gap: 15px;
-  height: 15vh;
+  height: 10vh;
   @include tablet {
     flex-direction: row;
     justify-content: space-between;

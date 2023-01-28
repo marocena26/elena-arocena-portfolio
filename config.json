@@ -34,9 +34,5 @@
   },
   "watch": {
     "html": "src/**/*.html"
-  },
-  "documents": {
-    "dest": "public/assets/documents/",
-    "dist": "docs/assets/documents/"
   }
 }
