@@ -3,19 +3,43 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 75vh;
-  gap: 20px;
-
-  &__title {
-    font-size: rem(24);
-    font-weight: 700;
-    @include tablet {
-      font-size: rem(30);
+  gap: 80px;
+  margin: 0 20px;
+  @include tablet {
+    margin: 0 100px;
+  }
+  @include desktop {
+    margin: 0 300px;
+  }
+  &__information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &--title {
+      font-size: rem(24);
+      font-weight: 700;
+      margin-bottom: 10px;
+      @include tablet {
+        font-size: rem(30);
+      }
+      @include desktop {
+        font-size: rem(36);
+      }
     }
-    @include desktop {
-      font-size: rem(36);
+    &--text {
+      font-size: rem(16);
+      line-height: 1.5;
+      @include tablet {
+        font-size: rem(18);
+      }
+      @include desktop {
+        font-size: rem(20);
+      }
     }
   }
+
   &__article {
     @include tablet {
       flex-direction: row;

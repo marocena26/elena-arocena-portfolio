@@ -14,9 +14,7 @@
     border: 1px solid $color-secondary;
     transform: scale(1.05);
   }
-  &:active {
-    transform: scale(0.95) rotateZ(1.7deg);
-  }
+
   &--name {
     font-size: rem(16);
   }
@@ -45,10 +43,13 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  border: 1px solid $color-secondary;
   font-size: rem(18);
   text-decoration: none;
   cursor: pointer;
   &:hover {
-    background-color: #723873;
+    background-color: $color-primary;
+    color: $color-secondary;
+    border: 1px solid $color-secondary;
   }
 }
