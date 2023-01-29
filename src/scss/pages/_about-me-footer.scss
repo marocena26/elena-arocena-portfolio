@@ -3,9 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 30vh;
   gap: 20px;
   @include tablet {
+    height: 20vh;
     justify-content: end;
     gap: 30px;
   }
@@ -17,6 +18,19 @@
     }
     @include desktop {
       font-size: rem(36);
+    }
+  }
+  &--text {
+    margin: 0 20px;
+    text-align: center;
+    font-size: rem(16);
+    line-height: 1.5;
+    @include tablet {
+      font-size: rem(18);
+      text-align: left;
+    }
+    @include desktop {
+      font-size: rem(20);
     }
   }
   &--tech {
