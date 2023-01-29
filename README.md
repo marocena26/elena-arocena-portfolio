@@ -21,19 +21,19 @@ In this repository we present a **website simple, intuitive and adapted to any t
 
 ### Home 
 
-Main section. Here you will find direct access to some of my networks and the presentation of the web page.
+**Main section**. Here you will find direct access to some of my networks and the presentation of the web page.
 
 ### Sobre mí
 
-Here you will find information about me: short presentation and skills. 
+Here you will find **information about me**: short presentation and skills. 
 
 ### Proyectos
 
-Here you will find information about the projects I have done so far. Each card has a direct link to the GitHub repository and to the web page. 
+Here you will find **information about the projects** I have done so far. Each card has a **direct link to the GitHub repository** **and** to **the web page**. 
 
 ### Contacto
 
-Here you will find direct access to my social networks to contact me. 
+Here you will find direct access to my **social networks to contact me**. 
 
 ## 🛠️ Tools
 
