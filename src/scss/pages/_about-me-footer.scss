@@ -8,7 +8,7 @@
   @include tablet {
     height: 20vh;
     justify-content: end;
-    gap: 30px;
+    //gap: 30px;
   }
   &--title {
     font-size: rem(24);
@@ -26,10 +26,12 @@
     font-size: rem(16);
     line-height: 1.5;
     @include tablet {
+      margin: 0 100px;
       font-size: rem(18);
       text-align: left;
     }
     @include desktop {
+      margin: 0 200px;
       font-size: rem(20);
     }
   }
