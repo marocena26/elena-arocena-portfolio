@@ -25,7 +25,7 @@
         font-size: rem(30);
       }
       @include desktop {
-        font-size: rem(36);
+        font-size: rem(32);
       }
     }
     &--text {
@@ -33,9 +33,6 @@
       line-height: 1.5;
       @include tablet {
         font-size: rem(18);
-      }
-      @include desktop {
-        font-size: rem(20);
       }
     }
   }
@@ -65,14 +62,14 @@
 
 .icons {
   font-size: rem(28);
-  @include tablet {
-    font-size: rem(32);
-  }
+  // @include tablet {
+  //   font-size: rem(32);
+  // }
 }
 
 .icons__text {
   font-size: rem(20);
-  @include tablet {
-    font-size: rem(22);
-  }
+  // @include tablet {
+  //   font-size: rem(22);
+  // }
 }
