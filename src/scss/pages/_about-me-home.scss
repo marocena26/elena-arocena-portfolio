@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  @include desktop {
+  @include desktop-big {
     height: 60vh;
     gap: 60px;
   }
