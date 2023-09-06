@@ -53,7 +53,7 @@ The following tools have been used when solving the project:
 
 ## 💾 Steps to follow to use this project on your computer:
 
-> **NOTE:**  You need to have **Node JS** installed to run this project.
+> **NOTE:** You need to have **Node JS** installed to run this project.
 
 1. **Go to github.com/your-user/name-of-project**, **clone it** and do whatever you want, you can rename the repo, change the code, redeploy it to GitHub Pages...
 2. **Finally** and for everything to work properly, **you must disable GitHub Pages and re-enable** it so that GitHub generates the new URL correctly.
@@ -74,6 +74,4 @@ After running `npm start` we can start editing all the files inside the src/ fol
 
 ## ✨ Feedback 
 
-Any input is most welcome.
-
-Thank you very much! 🤗
+Any input is most welcome. Thank you very much! 🤗
