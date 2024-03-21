@@ -5,23 +5,19 @@
 
 This is an **older version** of my personal portfolio, if you want to see the **updated project** click on the following **[link](https://github.com/marocena26/elena-arocena-portf)**, if not, keep reading ;)
 
-## 👩🏻‍💻 Author 
-
-- **Elena Arocena: [@marocena26](https://github.com/marocena26)**
-
 ## 🚀 Introduction
 
-In this repository you can find the files generated in the creation of my **personal Portfolio**.
+Welcome!👏🏻 In this repository you can find the files generated in the creation of my **personal Portfolio**.
 
 The main objective was to create a **responsive website** where you can know a **little more about me and my work**. 
 
 > **NOTE:** Direct link to the project by clicking on the following **[link](https://marocena26.github.io/elena-arocena-portfolio/)**
 
-## 👾 Description 
+## 📄​ Description 
 
-**Welcome to my personal Portfolio!** If you are interested in knowing a little bit more about me and my work, you are in the right place.
+**Welcome to my personal Portfolio!** If you are interested in knowing a little more about me and my work, you are in the right place.
 
-In this repository we present a **website simple, intuitive and adapted to any type of device** (mobile, tablet and PC) so you can take a look at it at any time. **Designed and developed with HTML and Sass **, you will find the following sections: 
+In this repository we present a **website simple, intuitive and adapted to any type of device** (mobile, tablet and PC) so you can take a look at it at any time. **Designed and developed with HTML and Sass**, you will find the following sections: 
 
 ### Home 
 
@@ -76,6 +72,9 @@ npm start
 After running `npm start` we can start editing all the files inside the src/ folder and program comfortably 💫
 
 
-## ✨ Feedback 
+## 🌻​ Credits & Feedback
 
-Any input is most welcome. Thank you very much! 🤗
+Designed & Developed By **[Elena Arocena](https://github.com/marocena26)**
+
+Any input is most welcome. Thank you very much!
+
