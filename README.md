@@ -1,9 +1,13 @@
 # Elena Arocena Portfolio 🌞
 <img width="959" alt="image" src="https://user-images.githubusercontent.com/113302094/215353218-45e387f5-58f4-4dd1-9314-64e4af8a7dab.png">
 
+## 🔍 Note
+
+This is an **older version** of my personal portfolio, if you want to see the **updated project** click on the following **[link](https://github.com/marocena26/elena-arocena-portf)**, if not, keep reading ;)
+
 ## 👩🏻‍💻 Author 
 
-- **Mª Elena Arocena López: [@marocena26](https://github.com/marocena26)**
+- **Elena Arocena: [@marocena26](https://github.com/marocena26)**
 
 ## 🚀 Introduction
 
